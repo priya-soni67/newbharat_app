@@ -1,0 +1,94 @@
+.container {
+    height: 73px;
+}
+
+.spanstyle {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.subdiv {
+    display: flex;
+    align-items: center;
+    padding: 1.2em 0;
+}
+
+.menuicon svg {
+    width: 32px;
+}
+
+.navList {
+    list-style: none;
+    display: flex;
+}
+
+.navList a {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    padding: 0 1em;
+}
+
+.btn {
+    width: 115px;
+    height: 35px;
+    background: linear-gradient(322.81deg, #0054D1 11.97%, #4FA7FF 93.43%);
+    border-radius: 20px;
+    border: none;
+    margin-left: 20px;
+    color: white;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.menuContainer{
+    position: relative;
+}
+
+.menuicon{
+    margin-left: 1em;
+    display: none;
+    cursor: pointer;
+}
+
+@media (max-width: 768px) {
+    .navList {
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .navList li {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .btn {
+        order: 1;
+    }
+
+    .menuContainer {
+        order: 5;
+    }
+
+    .menuicon{
+        display: flex;
+    }
+    .navList{
+        z-index: 99;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        display: none;
+    }
+    .navList a {
+        min-width: fit-content;
+        width: 140px;
+        padding: 0.6em 1.6em;
+        background-color: black;
+        color: white;
+        box-shadow: 0 0 1px #cccc;
+    }
+}
+
+.menuContainer.visible .navList {
+    display: flex;
+}
