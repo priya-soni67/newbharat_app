@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f154ecc0.css",
+    "main.js": "/static/js/main.d377a8b0.js",
+    "static/js/787.643a9e16.chunk.js": "/static/js/787.643a9e16.chunk.js",
+    "static/media/Rectangle.png": "/static/media/Rectangle.26fe2b0b5a5e84524fda.png",
+    "static/media/slider.png": "/static/media/slider.3abf49bb0b77a91029f4.png",
+    "static/media/Rectangle 17.png": "/static/media/Rectangle 17.780f5eeead11e691196c.png",
+    "static/media/about1.png": "/static/media/about1.35b6d89da94d25c54db8.png",
+    "static/media/about3.png": "/static/media/about3.fec32fa0952fda886c05.png",
+    "static/media/about2.png": "/static/media/about2.fe0fc1fcc704cdb8bb30.png",
+    "static/media/corechips.png": "/static/media/corechips.80400fe1c20eb9f0f2dc.png",
+    "static/media/cpu.png": "/static/media/cpu.4591d0978c14af67c688.png",
+    "static/media/aerochips.png": "/static/media/aerochips.cc99846aaa99dcab23d2.png",
+    "static/media/smartphone.png": "/static/media/smartphone.0381a18cb72e81eecf9d.png",
+    "static/media/negd.jpg": "/static/media/negd.930392b521ce5297aaeb.jpg",
+    "static/media/icea.jpg": "/static/media/icea.bc07b5ddebca7ecadf2e.jpg",
+    "static/media/ifci-logo.jpg": "/static/media/ifci-logo.8d83502a8ff70d46437a.jpg",
+    "static/media/eoffice.png": "/static/media/eoffice.65eddedae9d4853485d1.png",
+    "index.html": "/index.html",
+    "main.f154ecc0.css.map": "/static/css/main.f154ecc0.css.map",
+    "main.d377a8b0.js.map": "/static/js/main.d377a8b0.js.map",
+    "787.643a9e16.chunk.js.map": "/static/js/787.643a9e16.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f154ecc0.css",
+    "static/js/main.d377a8b0.js"
+  ]
+}
